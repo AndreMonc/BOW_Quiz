@@ -261,7 +261,7 @@ def number_quiz():
     family = random.choice(list(family_number_dict.keys()))
     answer = input("How many species in {}? ".format(family))
     while int(answer) != family_number_dict[family]:
-        print("Oops! Try again")
+        print("Oops! Try again.")
         answer = input("How many species in {}? ".format(family))
     if int(answer) == family_number_dict[family]:
         print("Awesome!! Correct.")
