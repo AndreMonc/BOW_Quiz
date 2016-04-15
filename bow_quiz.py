@@ -3,8 +3,8 @@
 
 """
 BOW 2016 family practice
-Created by Andre Moncrieff on 13 April 2016.
-Copyright 2016 Andre E. Moncrieff. All rights reserved.
+Created by Andre Moncrieff and Marco Rego on 15 April 2016.
+Copyright 2016. All rights reserved.
 """
 
 import random
@@ -261,8 +261,22 @@ def number_quiz():
     family = random.choice(list(family_number_dict.keys()))
     answer = input("How many species in {}? ".format(family))
     while int(answer) != family_number_dict[family]:
-        print("Oops! Try again.")
-        answer = input("How many species in {}? ".format(family))
+        if int(answer) < family_number_dict[family]:
+            if int(answer) in range(family_number_dict[family]-5,
+                                    family_number_dict[family]):
+                print("You are close. Try going up.")
+                answer = input("How many species in {}? ".format(family))
+            else:
+                print("Oops! Try going up.")
+                answer = input("How many species in {}? ".format(family))
+        elif int(answer) > family_number_dict[family]:
+            if int(answer) in range(family_number_dict[family]+1,
+                                    family_number_dict[family]+6):
+                print("You are close. Try going down.")
+                answer = input("How many species in {}? ".format(family))
+            else:
+                print("Oops! Try going down.")
+                answer = input("How many species in {}? ".format(family))
     if int(answer) == family_number_dict[family]:
         print("Awesome!! Correct.")
         number_quiz()
