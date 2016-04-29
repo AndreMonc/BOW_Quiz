@@ -35,7 +35,7 @@ function to work with the user-customized labels.*)
 
 
 ##Instructions Step-by-Step
-####Before running PopART_Xtreme.py
+#####Before running PopART_Xtreme.py
 - Select a Nexus alignment file for which you would like to produce a haplotype network
 - Open PopART
 - Import your Nexus files into PopART (*Click on "nex" icon at top left of pane*)
@@ -45,7 +45,7 @@ networks require a trees block in your Nexus file*).
 - Save log file (Statistics --> Identical sequences --> Yes)
 
 
-####User input file
+#####User input file
 - Open a new .txt file
 - On each line first write the sequence id used for the individual to which you wish to 
 add label information.
@@ -53,7 +53,7 @@ add label information.
 - Add coordinates
 
 
-####Running program on command line
+#####Running program on command line
 - Assemble into PopART_Xtreme.py, and the .txt, .svg, and .log files into same directory.
 - Command line setup:
 `python PopART_Xtreme.py --SVG some_name.svg --LOG some_name.log --TEXT some_name.txt
@@ -61,7 +61,7 @@ add label information.
 - Press enter and wait for the new svg file to appear 
 
 
-####Viewing
+#####Viewing
 - Open the new svg file in your web browser of choice
 - hover over circles in the haplotype network to see label information
 
