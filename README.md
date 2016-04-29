@@ -54,7 +54,7 @@ add label information.
 
 
 #####Running program on command line
-- Assemble into PopART_Xtreme.py, and the .txt, .svg, and .log files into same directory.
+- Place PopART_Xtreme.py, and the .txt, .svg, and .log files into the same directory.
 - Command line setup:
 `python PopART_Xtreme.py --SVG some_name.svg --LOG some_name.log --TEXT some_name.txt
 --OUT final.svg`
