@@ -1,19 +1,20 @@
-# PopArt_Xtreme.py
+# PopART_Xtreme.py
+
 
 
 ##Introduction
 This is a python program written by Glaucia Del-Rio, Marco Rego, and Andre Moncrieff 
 that aims to increase the general utility of haplotype networks to researchers. 
-Haplotype networks are commonly used to represent population level genetic relationships 
-between individuals, and they easy to generate to using the freely available program 
-PopArt. The networks produced, however, are often cumbersome to interpret. For instance, 
-labels for individuals in the network are strictly based on the sequence label in the the 
-Nexus file passed to PopART. Thus, full locality information, morphological traits, 
+Haplotype networks are commonly used to represent population level genetic relatedness 
+between individuals, and they are easy to generate to using the freely available program 
+PopART. The networks produced, however, are often cumbersome to interpret. For instance, 
+labels for individuals in the haplotype network are strictly based on the sequence label 
+in the Nexus file passed to PopART. Thus, full locality information, morphological traits, 
 or other descriptive information must often be consulted in conjunction with the 
 haplotype network in order to make a meaningful interpretation. 
 
 Our efforts to improve the utility of haplotype networks to researchers have resulted in
-the following three specific contributions:
+the following three specific contributions via PopART_Xtreme.py:
 
 1. User can provide additional text that will appear in the labels for individuals in the 
 haplotype network.
@@ -26,9 +27,11 @@ haplotype network files. We were required to construct our own mouseover effect
 function to work with the user-customized labels.*)
 
 
+
 ##Software Requirements
-- Python 3. We recommend Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads)
-- PopART. Downloadable for free [here](http://popart.otago.ac.nz/downloads.shtml)
+- Python 3. We recommend the Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads).
+- PopART. Downloadable for free [here](http://popart.otago.ac.nz/downloads.shtml).
+
 
 
 ##Instructions Step-by-Step
@@ -63,7 +66,8 @@ add label information.
 - hover over circles in the haplotype network to see label information
 
 
-####Acknowledgements
+
+##Acknowledgements
 - Thanks to Peter Collingridge for some carefully crafted tutorials on the [tooltip 
 function](http://www.petercollingridge.co.uk/interactive-svg-components/tooltip)
 - Thanks to Brant Faircloth for answering various questions regarding this project
