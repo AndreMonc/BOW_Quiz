@@ -36,21 +36,21 @@ function to work with the user-customized labels.*)
 
 ##Instructions Step-by-Step
 #####Before running PopART_Xtreme.py
-- Select a Nexus alignment file for which you would like to produce a haplotype network
-- Open PopART
-- Import your Nexus files into PopART (*Click on "nex" icon at top left of pane*)
+- Select a Nexus alignment file for which you would like to produce a haplotype network.
+- Open PopART.
+- Import your Nexus files into PopART (*Click on "nex" icon at top left of pane*).
 - Create network of choice (Network --> *your network of choice*). (*Note: Ancestral parsimony
 networks require a trees block in your Nexus file*).
-- Export as a Scalable Vector Graphic file (File --> Export graphics --> *Save as .svg*)
-- Save log file (Statistics --> Identical sequences --> Yes)
+- Export as a Scalable Vector Graphic file (File --> Export graphics --> *Save as .svg*).
+- Save log file (Statistics --> Identical sequences --> Yes).
 
 
 #####User input file
-- Open a new .txt file
+- Open a new .txt file.
 - On each line first write the sequence id used for the individual to which you wish to 
 add label information.
-- MORE DETAILS NEEDED
-- Add coordinates
+- MORE DETAILS NEEDED.
+- Add coordinates.
 
 
 #####Running program on command line
@@ -58,19 +58,19 @@ add label information.
 - Command line setup:
 `python PopART_Xtreme.py --SVG some_name.svg --LOG some_name.log --TEXT some_name.txt
 --OUT final.svg`
-- Press enter and wait for the new svg file to appear 
+- Press enter and wait for the new svg file to appear.
 
 
 #####Viewing
-- Open the new svg file in your web browser of choice
-- hover over circles in the haplotype network to see label information
+- Open the new svg file in your web browser of choice.
+- hover over circles in the haplotype network to see label information.
 
 
 
 ##Acknowledgements
 - Thanks to Peter Collingridge for some carefully crafted tutorials on the [tooltip 
-function](http://www.petercollingridge.co.uk/interactive-svg-components/tooltip)
-- Thanks to Brant Faircloth for answering various questions regarding this project
+function](http://www.petercollingridge.co.uk/interactive-svg-components/tooltip).
+- Thanks to Brant Faircloth for answering various questions regarding this project.
 
 
 
