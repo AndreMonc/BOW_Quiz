@@ -31,7 +31,7 @@ function to work with the user-customized labels.*)
 ##Software Requirements
 - Python 3. We recommend the Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads).
 - PopART. Downloadable for free [here](http://popart.otago.ac.nz/downloads.shtml).
-- Bokeh. More information [here](http://bokeh.pydata.org/en/latest/docs/installation.html)
+- Bokeh. More information [here](http://bokeh.pydata.org/en/latest/docs/installation.html).
 
 
 
@@ -51,7 +51,9 @@ networks require a trees block in your Nexus file*).
 - Open a new .txt file.
 - Use tab-delimited format
 - Insert the following four column headers: "Lat", "Long", "Sequence", "Locality".
-- Use decimal format for Lat and Long
+- Use decimal format for Lat and Long when adding rows
+- User may add additional columns (no more than 3 recommended) with information to be 
+displayed as haplotype network labels. 
 - Insert any string for sequence and locality
 - Save file
 
