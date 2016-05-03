@@ -62,14 +62,14 @@ displayed as haplotype network labels.
 - Place PopART_Xtreme.py, and the .txt, .svg, and .log files into the same directory.
 - Command line setup:
 `python PopART_Xtreme.py --SVG some_name.svg --LOG some_name.log --TEXT some_name.txt
---OUT 
+--OUT some_name.html
 - Press enter and wait for two html files to appear in the working directory: 1) the 
-map_plot.html file and 2) the "specified_name".html that contains the haplotype network
+map_plot.html file and 2) the some_name.html that contains the haplotype network
 and associated map.
 
 
 #####Viewing
-- Open the new "specified_name".html file in your web browser of choice.
+- Open the new some_name.html file in your web browser of choice.
 - hover over circles in the haplotype network and map to see your input information.
 
 
