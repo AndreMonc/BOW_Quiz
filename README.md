@@ -43,7 +43,7 @@ function to work with the user-customized labels.*)
 - Create network of choice (Network --> *your network of choice*). (*Note: Ancestral parsimony
 networks require a trees block in your Nexus file*).
 - Optional: for cleaner final product manually move all labels over center of haplotypes.
-- Export as a Scalable Vector Graphic file (File --> Export graphics --> *Save as .svg*).
+- Export the network as a Scalable Vector Graphic file (File --> Export graphics --> *Save as .svg*).
 - Save log file (Statistics --> Identical sequences --> Yes).
 
 
@@ -52,7 +52,7 @@ networks require a trees block in your Nexus file*).
 - Use tab-delimited format
 - Insert the following four column headers: "Lat", "Long", "Sequence", "Locality".
 - Use decimal format for Lat and Long when adding rows
-- User may add additional columns (no more than 3 recommended) with information to be 
+- User may add columns (no more than 3 recommended) with additional information to be 
 displayed as haplotype network labels. 
 - Insert any string for sequence and locality
 - Save file
