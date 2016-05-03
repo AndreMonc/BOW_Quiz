@@ -49,13 +49,13 @@ networks require a trees block in your Nexus file*).
 
 #####User input file
 - Open a new .txt file.
-- Use tab-delimited format
+- Use tab-delimited format.
 - Insert the following four column headers: "Lat", "Long", "Sequence", "Locality".
-- Use decimal format for Lat and Long when adding rows
+- Use decimal format for Lat and Long when adding rows.
 - User may add columns (no more than 3 recommended) with additional information to be 
 displayed as haplotype network labels. 
-- Insert any string for sequence and locality
-- Save file
+- Insert any string for sequence and locality.
+- Save file.
 
 
 #####Running program on command line
