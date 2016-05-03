@@ -70,7 +70,7 @@ and associated map.
 
 #####Viewing
 - Open the new some_name.html file in your web browser of choice.
-- hover over circles in the haplotype network and map to see your input information.
+- Hover over circles in the haplotype network and map to see your input information.
 
 
 
