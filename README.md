@@ -41,29 +41,33 @@ function to work with the user-customized labels.*)
 - Import your Nexus files into PopART (*Click on "nex" icon at top left of pane*).
 - Create network of choice (Network --> *your network of choice*). (*Note: Ancestral parsimony
 networks require a trees block in your Nexus file*).
+- Optional: for cleaner final product manually move all labels over center of haplotypes.
 - Export as a Scalable Vector Graphic file (File --> Export graphics --> *Save as .svg*).
 - Save log file (Statistics --> Identical sequences --> Yes).
 
 
 #####User input file
 - Open a new .txt file.
-- On each line first write the sequence id used for the individual to which you wish to 
-add label information.
-- MORE DETAILS NEEDED.
-- Add coordinates.
+- Use tab-delimited format
+- Insert the following four column headers: "Lat", "Long", "Sequence", "Locality".
+- Use decimal format for Lat and Long
+- Insert any string for sequence and locality
+- Save file
 
 
 #####Running program on command line
 - Place PopART_Xtreme.py, and the .txt, .svg, and .log files into the same directory.
 - Command line setup:
 `python PopART_Xtreme.py --SVG some_name.svg --LOG some_name.log --TEXT some_name.txt
---OUT final.svg`
-- Press enter and wait for the new svg file to appear.
+--OUT 
+- Press enter and wait for two html files to appear in the working directory: 1) the 
+map_plot.html file and 2) the "specified_name".html that contains the haplotype network
+and associated map.
 
 
 #####Viewing
-- Open the new svg file in your web browser of choice.
-- hover over circles in the haplotype network to see label information.
+- Open the new "specified_name".html file in your web browser of choice.
+- hover over circles in the haplotype network and map to see your input information.
 
 
 
