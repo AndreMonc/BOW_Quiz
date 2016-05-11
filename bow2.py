@@ -290,7 +290,7 @@ def number_quiz(stream, rights=[], wrong_f=[]):
                     number_quiz(stream)
                 else:
                     print(Fore.RED+"\nWRONG ANSWER!"+Style.RESET_ALL, file=stream)
-                    print("The correct is: {}\n".format
+                    print("The correct answer is: {}\n".format
                           (family_number_dict[family]))
                     wrong_f.append(family)
                     family_number_dict.pop(family)
