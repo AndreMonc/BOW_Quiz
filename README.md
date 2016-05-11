@@ -31,7 +31,7 @@ function to work with the user-customized labels.*)
 ##Software Requirements
 - Python 3. We recommend the Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads).
 - PopART. Downloadable for free [here](http://popart.otago.ac.nz/downloads.shtml).
-- Bokeh. More information on how to download for free [here](http://bokeh.pydata.org/en/latest/docs/installation.html).
+- Latest version of Bokeh. More information on how to download for free [here](http://bokeh.pydata.org/en/latest/docs/installation.html).
 
 
 
