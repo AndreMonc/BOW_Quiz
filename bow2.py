@@ -299,7 +299,7 @@ def number_quiz(stream, rights=[], wrong_f=[]):
         elif int(answer) == family_number_dict[family]:
             print(Fore.GREEN+"\nYou're correct!\n"+Style.RESET_ALL, file=stream)
             family_number_dict.pop(family)
-            print("Updated family count: {}\n".format(len(family_number_dict)))
+            #print("Families left in quiz: {}\n".format(len(family_number_dict)))
             rights.append(1)
             number_quiz(stream)
         summ = sum(rights)
@@ -310,11 +310,11 @@ def number_quiz(stream, rights=[], wrong_f=[]):
 
 
 def statistcs(r, w):
-    print("\nCongratulations! You finished the test.\n")
+    print("\nCongratulations! You finished the quiz.\n")
     print("Your Scores:")
     print("Based on the total number of families: {:04.2f}%"
           .format((100*r)/245))
-    print("Based on where the code stopped: {:04.2f}%"
+    print("Based on where the quiz stopped: {:04.2f}%"
           .format((100*r)/(r+len(w))))
     print("You got {} families right and {} families wrong".format(r, len(w)))
     print("Families you got wrong:\n{}".format(w))
