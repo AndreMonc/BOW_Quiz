@@ -1,5 +1,7 @@
 #bow2.py - Quizzes user on the number of species in each bird family
 
+##### Developed by Andre Moncrieff and Marco Rego. Copyright 2016.
+
 ##Step by Step Instructions for Mac Users
 
 #### Requirements
