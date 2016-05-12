@@ -19,7 +19,7 @@
 
 #### Quiz!
 - Simply enter integer answers and then press enter
-- Press enter twice to end the program and see a summary of your performance
+- Press enter instead of an answer to end the program and see a summary of your performance
 
 
 
