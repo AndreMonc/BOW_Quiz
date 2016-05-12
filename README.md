@@ -3,7 +3,7 @@
 ##Step by Step Instructions for Mac Users
 
 #### Requirements
-- Python 3. We recommend the Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads).
+- Python 3. We recommend the Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads)
 - Text editor. We recommend the TextWrangler text editor downloadable for free [here](http://www.barebones.com/products/textwrangler/download.html)
 
 #### Save the .py program
