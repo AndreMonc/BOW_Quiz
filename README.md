@@ -1,4 +1,4 @@
-#bow2.py - A program for quizzing the number of birds species in their respective families
+#bow2.py - Quizzes user on the number of species in each bird family
 
 ##Step by Step Instructions for Mac Users
 
