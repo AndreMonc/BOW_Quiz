@@ -273,7 +273,7 @@ def number_quiz(stream, rights=[], wrong_f=[]):
             number_quiz(stream)
         elif int(answer) != family_number_dict[family]:
             if family_number_dict[family] == 1:
-                print(Fore.RED+"\nMonotipic family. There is no buffer\n"+Style.RESET_ALL, file=stream)
+                print(Fore.RED+"\nMonotypic family. Careful!\n"+Style.RESET_ALL, file=stream)
                 wrong_f.append(family)
                 family_number_dict.pop(family)
                 rights.append(0)
@@ -289,7 +289,7 @@ def number_quiz(stream, rights=[], wrong_f=[]):
                     rights.append(0)
                     number_quiz(stream)
                 else:
-                    print(Fore.RED+"\nWRONG ANSWER!"+Style.RESET_ALL, file=stream)
+                    print(Fore.RED+"\nOops!"+Style.RESET_ALL, file=stream)
                     print("The correct answer is: {}\n".format
                           (family_number_dict[family]))
                     wrong_f.append(family)
@@ -297,7 +297,7 @@ def number_quiz(stream, rights=[], wrong_f=[]):
                     rights.append(0)
                     number_quiz(stream)
         elif int(answer) == family_number_dict[family]:
-            print(Fore.GREEN+"\nYou're correct!\n"+Style.RESET_ALL, file=stream)
+            print(Fore.GREEN+"\nCorrect!\n"+Style.RESET_ALL, file=stream)
             family_number_dict.pop(family)
             #print("Families left in quiz: {}\n".format(len(family_number_dict)))
             rights.append(1)
@@ -309,12 +309,13 @@ def number_quiz(stream, rights=[], wrong_f=[]):
         return summ, wrong_f
 
 
-def statistcs(r, w):
-    print("\nCongratulations! You finished the quiz.\n")
-    print("Your Scores:")
-    print("Based on the total number of families: {:04.2f}%"
-          .format((100*r)/245))
-    print("Based on where the quiz stopped: {:04.2f}%"
+def statistics(r, w):
+    #print("\nCongratulations! You finished the quiz.\n")
+    print("\n\n                  SUMMARY")
+    print("------------------------------------------")
+    #print("Percentage of families quizzed: {:04.2f}%"
+    #      .format((100*r)/246))
+    print("Percentage correct: {:04.2f}%"
           .format((100*r)/(r+len(w))))
     print("You got {} families right and {} families wrong".format(r, len(w)))
     print("Families you got wrong:\n{}".format(w))
@@ -324,7 +325,7 @@ def main():
     init(wrap=False)
     stream = AnsiToWin32(sys.stderr).stream
     r, wrong_f = number_quiz(stream)
-    statistcs(r, wrong_f)
+    statistics(r, wrong_f)
     deinit()
 
 if __name__ == '__main__':
