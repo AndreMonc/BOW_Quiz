@@ -1,8 +1,8 @@
-#bow2.py - A program that quizzes the user on the number of species in each bird family
+# bow2.py - A program that quizzes the user on the number of species in each bird family
 
 ##### Developed by Andre Moncrieff and Marco Rego. Copyright 2016.
 
-##Step by Step Instructions for Mac Users
+## Step by Step Instructions for Mac Users
 
 #### Requirements
 - Python 3. We recommend the Anaconda package of Python 3.5 downloadable for free [here](https://www.continuum.io/downloads)
